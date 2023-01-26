@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fibonacci Series</title>
+</head>
+<body>
+    <h1>Adeyemo Aramide David 19cj025764</h1>
+  <h2>Fibonacci Series</h2>
+    <ul>
+        <script>
+            var a = 0, b = 1, c, upperlimit = 100;
+            document.write("<li>" + a + "</li>");
+            document.write("<li>" + b + "</li>");
+            while (c <= upperlimit) {
+                c = a + b;
+                a = b;
+                b = c;
+                if(c<=100)
+                document.write("<li>" + c + "</li>");
+            }
+        </script>
+    </ul>
+</body>
+</html>
